@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" aria-label="3D Quran on Rehal Icon">
+  <defs>
+    <!-- Soft shadow -->
+    <filter id="shadowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/>
+      <feOffset dx="0" dy="10" result="off"/>
+      <feColorMatrix in="off" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 .30 0" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Stronger contact shadow -->
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Page gradients -->
+    <linearGradient id="pageFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF9EF"/>
+      <stop offset="100%" stop-color="#F3EBDD"/>
+    </linearGradient>
+
+    <linearGradient id="pageEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E7DDC8"/>
+      <stop offset="60%" stop-color="#D8CCB1"/>
+      <stop offset="100%" stop-color="#CFC2A4"/>
+    </linearGradient>
+
+    <!-- Spine gradient -->
+    <linearGradient id="spineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B89D62"/>
+      <stop offset="50%" stop-color="#D9C38C"/>
+      <stop offset="100%" stop-color="#B89D62"/>
+    </linearGradient>
+
+    <!-- Wood gradients -->
+    <linearGradient id="woodA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B8763F"/>
+      <stop offset="55%" stop-color="#8E562B"/>
+      <stop offset="100%" stop-color="#C4874F"/>
+    </linearGradient>
+
+    <linearGradient id="woodB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C4874F"/>
+      <stop offset="55%" stop-color="#8E562B"/>
+      <stop offset="100%" stop-color="#B8763F"/>
+    </linearGradient>
+
+    <!-- Green top strip -->
+    <linearGradient id="topGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2FA56E"/>
+      <stop offset="100%" stop-color="#1E7C52"/>
+    </linearGradient>
+
+    <!-- Inner page shadow -->
+    <filter id="innerShade" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="0" dy="2"/>
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feComposite in="b" in2="SourceAlpha" operator="in" result="inset"/>
+      <feColorMatrix in="inset" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 .22 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background is transparent by default -->
+
+  <!-- Ground shadow (transparent background, just a soft shadow) -->
+  <ellipse cx="256" cy="410" rx="170" ry="38" fill="url(#groundShadow)"/>
+
+  <!-- ================== REHAL (3D) ================== -->
+  <g filter="url(#shadowSoft)">
+    <!-- Left stick -->
+    <g transform="translate(256 360) rotate(-28)">
+      <rect x="-210" y="-18" width="420" height="36" rx="18" fill="url(#woodA)"/>
+      <!-- highlight -->
+      <rect x="-200" y="-12" width="400" height="10" rx="5" fill="#fff" opacity=".12"/>
+      <!-- edge shade -->
+      <rect x="-210" y="8" width="420" height="10" rx="5" fill="#000" opacity=".12"/>
+    </g>
+
+    <!-- Right stick -->
+    <g transform="translate(256 360) rotate(28)">
+      <rect x="-210" y="-18" width="420" height="36" rx="18" fill="url(#woodB)"/>
+      <rect x="-200" y="-12" width="400" height="10" rx="5" fill="#fff" opacity=".12"/>
+      <rect x="-210" y="8" width="420" height="10" rx="5" fill="#000" opacity=".12"/>
+    </g>
+  </g>
+
+  <!-- ================== QURAN (WIDE + 3D PAGES) ================== -->
+  <g filter="url(#shadowSoft)">
+    <!-- Book block (pages thickness behind) -->
+    <!-- Left thickness (behind left page) -->
+    <path d="
+      M 92 170
+      C 92 150, 110 134, 130 134
+      H 254
+      V 304
+      H 118
+      C 104 304, 92 292, 92 278
+      Z"
+      fill="url(#pageEdge)"/>
+
+    <!-- Right thickness (behind right page) -->
+    <path d="
+      M 258 134
+      H 382
+      C 402 134, 420 150, 420 170
+      V 278
+      C 420 292, 408 304, 394 304
+      H 258
+      Z"
+      fill="url(#pageEdge)"/>
+
+    <!-- Left page face (wider, flatter) -->
+    <rect x="108" y="142" width="160" height="172" rx="14"
+          fill="url(#pageFace)" stroke="#D7C9A6" stroke-width="4"
+          filter="url(#innerShade)"/>
+
+    <!-- Right page face -->
+    <rect x="244" y="142" width="160" height="172" rx="14"
+          fill="url(#pageFace)" stroke="#D7C9A6" stroke-width="4"
+          filter="url(#innerShade)"/>
+
+    <!-- Top green strips -->
+    <rect x="108" y="136" width="160" height="14" rx="7" fill="url(#topGreen)"/>
+    <rect x="244" y="136" width="160" height="14" rx="7" fill="url(#topGreen)"/>
+
+    <!-- Spine (3D) -->
+    <rect x="238" y="132" width="36" height="190" rx="18" fill="url(#spineGrad)"/>
+    <!-- spine highlight -->
+    <rect x="252" y="140" width="8" height="174" rx="4" fill="#fff" opacity=".18"/>
+    <!-- spine shadow line -->
+    <rect x="238" y="132" width="3" height="190" rx="2" fill="#000" opacity=".18"/>
+    <rect x="271" y="132" width="3" height="190" rx="2" fill="#000" opacity=".12"/>
+
+    <!-- Inner gutter shadow to feel depth -->
+    <path d="M 244 150
+             C 240 170, 240 290, 244 310"
+          stroke="#000" stroke-width="10" opacity=".10" stroke-linecap="round"/>
+
+    <!-- Page lines (left) -->
+    <g stroke="#C7BFA6" stroke-width="4" stroke-linecap="round" opacity=".95">
+      <line x1="130" y1="178" x2="246" y2="178"/>
+      <line x1="130" y1="202" x2="246" y2="202"/>
+      <line x1="130" y1="226" x2="246" y2="226"/>
+      <line x1="130" y1="250" x2="230" y2="250"/>
+    </g>
+
+    <!-- Page lines (right) -->
+    <g stroke="#C7BFA6" stroke-width="4" stroke-linecap="round" opacity=".95">
+      <line x1="266" y1="178" x2="382" y2="178"/>
+      <line x1="266" y1="202" x2="382" y2="202"/>
+      <line x1="266" y1="226" x2="382" y2="226"/>
+      <line x1="282" y1="250" x2="382" y2="250"/>
+    </g>
+
+    <!-- Slight page curl highlights (subtle 3D) -->
+    <path d="M 114 160 C 120 154, 132 152, 146 152" stroke="#fff" stroke-width="6" opacity=".20" stroke-linecap="round"/>
+    <path d="M 398 160 C 392 154, 380 152, 366 152" stroke="#fff" stroke-width="6" opacity=".18" stroke-linecap="round"/>
+  </g>
+</svg>

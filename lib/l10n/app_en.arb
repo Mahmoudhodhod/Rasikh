@@ -1,0 +1,834 @@
+﻿{
+  "@@locale": "en",
+  "appTitle": "Rasikh",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "home": "Home",
+  "homeWelcome": "Welcome to Rasikh App",
+  "goTosettings": "Go to settings",
+  "settings": "Settings",
+  "darkMode": "Dark mode",
+  "welcomeMessage": "Welcome 👋",
+  "@welcomeMessage": {
+    "description": "Welcome message in the drawer header"
+  },
+  "homePage": "Home Page",
+  "@homePage": {
+    "description": "Drawer item for the home page"
+  },
+  "@settings": {
+    "description": "Drawer item for settings"
+  },
+  "contactUs": "Contact Us",
+  "@contactUs": {
+    "description": "Drawer item for contact us page"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Drawer item for logging out"
+  },
+  "appVersion": "Version 1.0.0",
+  "@appVersion": {
+    "description": "App version display in the drawer footer"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "The title for the language selection menu"
+  },
+  "languageEnglish": "English",
+  "@languageEnglish": {
+    "description": "The English language option"
+  },
+  "languageArabic": "Arabic",
+  "@languageArabic": {
+    "description": "The Arabic language option"
+  },
+  "resourcesHubTitle": "Resources",
+  "@resourcesHubTitle": {
+    "description": "Title for the Resources Hub screen"
+  },
+  "tafsirAndTadabburTab": "Tafsir & Tadabbur",
+  "@tafsirAndTadabburTab": {
+    "description": "Label for the Tafsir and Tadabbur tab"
+  },
+  "tajweedTab": "Tajweed",
+  "@tajweedTab": {
+    "description": "Label for the Tajweed rules tab"
+  },
+  "tafsirDetailTitle": "Tafsir of Ayah {verseNumber} from Surah {surahName}",
+  "@tafsirDetailTitle": {
+    "description": "Title for the tafsir detail screen, showing verse number and surah name.",
+    "placeholders": {
+      "verseNumber": {
+        "type": "int",
+        "example": "7"
+      },
+      "surahName": {
+        "type": "String",
+        "example": "Al-Fatiha"
+      }
+    }
+  },
+  "tafsirLabel": "Tafsir:",
+  "@tafsirLabel": {
+    "description": "A label indicating the start of the tafsir text."
+  },
+  "searchBySurahNameHint": "Search by Surah name",
+  "@searchBySurahNameHint": {
+    "description": "Hint text for the Surah name dropdown."
+  },
+  "searchByVerseNumberHint": "Search by Ayah number",
+  "@searchByVerseNumberHint": {
+    "description": "Hint text for the verse number search field."
+  },
+  "surahNameLabel": "Surah {surahName}",
+  "@surahNameLabel": {
+    "description": "Label for the Surah name in a search result card.",
+    "placeholders": {
+      "surahName": {
+        "type": "String",
+        "example": "Al-Baqarah"
+      }
+    }
+  },
+  "verseNumberLabel": "Ayah {verseNumber}",
+  "@verseNumberLabel": {
+    "description": "Label for the verse number in a search result card.",
+    "placeholders": {
+      "verseNumber": {
+        "type": "int",
+        "example": "255"
+      }
+    }
+  },
+  "viewTafsirButton": "View Tafsir",
+  "@viewTafsirButton": {
+    "description": "Button text to navigate to the detailed tafsir screen."
+  },
+  "example": "Example:",
+  "certificateScreenTitle": "Certificate of Appreciation",
+  "@certificateScreenTitle": {
+    "description": "App bar title for the certificate screen"
+  },
+  "downloadAsPdfButton": "Download as PDF",
+  "@downloadAsPdfButton": {
+    "description": "Label for the PDF download button"
+  },
+  "certificateTitle": "Certificate for Memorizing {courseName}",
+  "@certificateTitle": {
+    "description": "The main title on the certificate itself.",
+    "placeholders": {
+      "courseName": {
+        "type": "String"
+      }
+    }
+  },
+  "certificatePresentedTo": "This certificate is presented to:",
+  "@certificatePresentedTo": {
+    "description": "A line of text indicating who the certificate is for"
+  },
+  "certificateBlessing": "May Allah bless you and make your memorization of the Quran a light for you in this life and the hereafter.",
+  "@certificateBlessing": {
+    "description": "The congratulatory message on the certificate"
+  },
+  "signatureLabel": "Signature ___________________ ",
+  "@signatureLabel": {
+    "description": "The signature line label on the certificate"
+  },
+  "certificateCompletionTitle": "Certificate of Completion for Part {partNumber}",
+  "@certificateCompletionTitle": {
+    "description": "Title for a certificate in a list view.",
+    "placeholders": {
+      "partNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "certificateIssueDate": "Issue Date: {date}",
+  "@certificateIssueDate": {
+    "description": "Label showing the issue date of a certificate.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2023-10-27"
+      }
+    }
+  },
+  "noCertificatesFound": "No Certificates Found",
+  "@noCertificatesFound": {
+    "description": "Message displayed when the user has no certificates."
+  },
+  "performanceTrackingTitle": "Performance Tracking",
+  "@performanceTrackingTitle": {
+    "description": "App bar title for the performance tracking screen"
+  },
+  "reportsTab": "Reports",
+  "@reportsTab": {
+    "description": "Label for the Reports tab"
+  },
+  "certificatesTab": "Certificates",
+  "@certificatesTab": {
+    "description": "Label for the Certificates tab"
+  },
+  "prophetSaidLabel": "The Messenger of Allah ﷺ said:",
+  "@prophetSaidLabel": {
+    "description": "Label introducing a hadith"
+  },
+  "memorizationReportTitle": "Memorization Report",
+  "@memorizationReportTitle": {
+    "description": "Title for the stats section"
+  },
+  "savedVersesStatTitle": "Memorized Verses",
+  "@savedVersesStatTitle": {
+    "description": "Title for the saved verses stat card"
+  },
+  "savedVersesStatUnit": "verse",
+  "@savedVersesStatUnit": {
+    "description": "Unit for the saved verses stat card"
+  },
+  "savedPagesStatTitle": "Memorized Pages",
+  "@savedPagesStatTitle": {
+    "description": "Title for the saved pages stat card"
+  },
+  "savedPagesStatUnit": "page",
+  "@savedPagesStatUnit": {
+    "description": "Unit for the saved pages stat card"
+  },
+  "savedJuzStatTitle": "Memorized Juz'",
+  "@savedJuzStatTitle": {
+    "description": "Title for the saved Juz' stat card"
+  },
+  "savedJuzStatUnit": "Juz'",
+  "@savedJuzStatUnit": {
+    "description": "Unit for the saved Juz' stat card"
+  },
+  "dailyAverageStatTitle": "Daily Average",
+  "@dailyAverageStatTitle": {
+    "description": "Title for the daily average stat card"
+  },
+  "dailyAverageStatUnit": "verses",
+  "@dailyAverageStatUnit": {
+    "description": "Unit for the daily average stat card"
+  },
+  "profileScreenTitle": "Profile",
+  "personalInformationTitle": "Personal Information",
+  "addressInformationTitle": "Address Information",
+  "editButton": "Edit",
+  "firstNameLabel": "First Name",
+  "middleNameLabel": "Middle Name",
+  "lastNameLabel": "Last Name",
+  "emailLabel": "Email",
+  "phoneLabel": "Phone Number",
+  "passwordLabel": "Password",
+  "logoutButton": "Logout",
+  "profileLoadError": "Failed to load profile: {error}",
+  "@profileLoadError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retryButton": "Retry",
+  "editProfileDialogTitle": "Edit Personal Information",
+  "firstNameFormFieldLabel": "First Name",
+  "middleNameFormFieldLabel": "Middle Name",
+  "lastNameFormFieldLabel": "Last Name",
+  "emailFormFieldLabel": "Email",
+  "phoneFormFieldLabel": "Mobile Number",
+  "cancelButton": "Cancel",
+  "saveButton": "Save",
+  "validationEmptyFirstName": "Please enter your first name",
+  "validationInvalidNameFormat": "Name must contain letters only",
+  "validationEmptyMiddleName": "Please enter your middle name",
+  "validationEmptyLastName": "Please enter your last name",
+  "validationEmptyEmail": "Please enter your email",
+  "validationInvalidEmail": "Please enter a valid email address",
+  "invalidPhoneNumber": "Invalid mobile number",
+  "changePasswordDialogTitle": "Change Password",
+  "oldPasswordFormFieldLabel": "Old Password",
+  "newPasswordFormFieldLabel": "New Password",
+  "confirmNewPasswordFormFieldLabel": "Confirm New Password",
+  "validationEmptyOldPassword": "Please enter your old password",
+  "validationEmptyNewPassword": "Please enter the new password",
+  "validationPasswordTooShort": "Password is too short",
+  "validationPasswordsDoNotMatch": "Passwords do not match",
+  "editAddressDialogTitle": "Edit Address",
+  "countryFormFieldLabel": "Country",
+  "cityFormFieldLabel": "City",
+  "addressDetailsFormFieldLabel": "Address Details",
+  "validationEmptyCountry": "Please enter the country",
+  "validationEmptyCity": "Please enter the city",
+  "validationEmptyAddressDetails": "Please enter address details",
+  "profileUpdateSuccess": "Information updated successfully",
+  "profileUpdateFailed": "Update failed: {error}",
+  "@profileUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordUpdateSuccess": "Password changed successfully",
+  "oldPasswordIncorrect": "Old password is incorrect",
+  "addressUpdateSuccess": "Address updated successfully",
+  "apiConnectionTimeout": "Connection timeout with server.",
+  "apiBadRequest": "Invalid request. Please check your input.",
+  "apiUnauthorized": "Incorrect login credentials.",
+  "apiNotFound": "Requested resource not found.",
+  "apiPhoneNumberExists": "Phone number already exists.",
+  "apiServerError": "Server error, please try again later.",
+  "apiUnexpectedErrorWithCode": "Unexpected error: {statusCode}",
+  "@apiUnexpectedErrorWithCode": {
+    "description": "Error message with status code",
+    "placeholders": {
+      "statusCode": {
+        "type": "String",
+        "example": "503"
+      }
+    }
+  },
+  "apiRequestCancelled": "Request cancelled.",
+  "apiNoInternetConnection": "No internet connection.",
+  "apiUnknownError": "Unknown error occurred.",
+  "apiUnexpectedError": "Unexpected error occurred, please try again.",
+  "apiOldPasswordIncorrect": "The old password is incorrect.",
+  "welcomeBack": "Welcome Back 👋",
+  "loginPrompt": "Please enter your email and password to login",
+  "phoneNumberLabel": "Phone Number",
+  "validationEnterPhoneNumber": "Please enter phone number",
+  "validationEnterPassword": "Please enter password",
+  "forgotPasswordButton": "Forgot Password?",
+  "loginButton": "Login",
+  "dontHaveAccount": "Don't have an account?",
+  "createAccountButton": "Create Account",
+  "registerTitle": "Create New Account",
+  "stepBasicInfo": "Basic Info",
+  "stepDetails": "Details",
+  "registerWelcome": "Welcome 👋",
+  "registerWelcomeSub": "Let's start with some basic information to create your profile.",
+  "fullNameLabel": "Full Name",
+  "ageLabel": "Age",
+  "nextButton": "Next",
+  "step2Title": "Last Step! 🚀",
+  "step2Sub": "Help us customize your experience with these details.",
+  "countryLabel": "Country",
+  "validationCountryRequired": "Country is required",
+  "planSelectionTitle": "How do you prefer to memorize?",
+  "planSelfPaced": "Self-Paced",
+  "planSelfPacedSub": "Memorize alone and review whenever I want",
+  "planGroup": "Memorization Circle",
+  "planGroupSub": "Join a group for encouragement",
+  "planTutor": "Private Tutor (Online)",
+  "planTutorSub": "Close follow-up with a teacher",
+  "validationPlanRequired": "Please select a memorization plan",
+  "registerSuccess": "Account created successfully!",
+  "createAccountAction": "Create Account",
+  "loginOptionsTitle": "Let's dive into your account",
+  "loginWithGoogle": "Login with Google",
+  "loginWithApple": "Login with Apple",
+  "orDivider": "Or",
+  "loginWithPhone": "Login",
+  "forgotPasswordTitle": "Reset Password",
+  "forgotPasswordHeading": "Forgot Password?",
+  "forgotPasswordSub": "If you are having trouble remembering the correct email, please contact support for assistance.",
+  "enterEmailLabel": "Enter Email",
+  "startNowButton": "Start Now",
+  "backButton": "Go Back",
+  "otpTitle": "Change Password",
+  "otpMessage": "An activation code has been sent to your email. Please check and copy the code.",
+  "otpLabel": "Activation Code",
+  "validationEnterCode": "Please enter the code",
+  "newPasswordLabel": "New Password",
+  "confirmPasswordLabel": "Confirm Password",
+  "passwordResetSuccess": "Password reset successfully",
+  "finishButton": "Finish",
+  "validationEmail": "Please enter a valid email",
+  "validationPasswordLength": "Password must be at least 6 characters",
+  "validationPasswordMismatch": "Passwords do not match",
+  "logoutTitle": "Logout",
+  "logoutConfirmationTitle": "Confirm Logout",
+  "logoutConfirmationMessage": "Are you sure you want to log out of the account?",
+  "logoutSuccess": "Logged out successfully.",
+  "logoutQuestion": "Do you want to log out of your account?",
+  "logoutFailed": "Logout failed: {error}",
+  "@logoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingTitle1": "Welcome to Rasikh",
+  "onboardingSub1": "Your smart way to memorize the Quran and consolidate it in an organized and effective manner.",
+  "onboardingTitle2": "Flexible Plans",
+  "onboardingSub2": "Choose the plan that suits your time and level, and track your progress day by day easily.",
+  "onboardingTitle3": "Smart Review & Quizzes",
+  "onboardingSub3": "A comprehensive review system helping you consolidate memorization, with tests to measure your mastery.",
+  "skipButton": "Skip",
+  "validationEnterName": "Please enter the name",
+  "validationNameThreeParts": "Please enter at least a full name (three parts)",
+  "validationNameCharsOnly": "Name must contain letters only",
+  "validationValidEmail": "Please enter a valid email",
+  "validationEnterPhone": "Please enter phone number",
+  "validationInvalidPhone": "Invalid phone number",
+  "validationFieldRequired": "Please enter {fieldName}",
+  "@validationFieldRequired": {
+    "placeholders": {
+      "fieldName": {
+        "type": "String"
+      }
+    }
+  },
+  "cameraOption": "Camera",
+  "galleryOption": "Photo Gallery",
+  "cancelOption": "Cancel",
+  "cropImageTitle": "Crop Image",
+  "cropImageDone": "Done",
+  "cropImageCancel": "Cancel",
+  "changePhotoAction": "Change Photo",
+  "contactUsTitle": "Contact Us",
+  "contactUsHeader": "Contact Us",
+  "contactInfoTitle": "Feel free to contact us anytime",
+  "contactInfoSub": "We will reply as soon as possible",
+  "contactTypeHint": "Choose contact type",
+  "contactTypeGeneral": "General Inquiry",
+  "contactTypeTechnical": "Technical Complaint",
+  "contactTypeSuggestion": "Development Suggestion",
+  "messageLabel": "Your Message",
+  "validationMessageRequired": "Please enter your message",
+  "sendButton": "Send",
+  "messageSentSuccess": "Your message has been sent successfully",
+  "validationFillAllFields": "Please make sure to fill all required fields ⚠️",
+  "dashboardTitle": "Rasikh",
+  "welcomeUser": "Welcome, {userName}!",
+  "@welcomeUser": {
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "Ali"
+      }
+    }
+  },
+  "welcomeSubtitle": "Your journey with the Quran continues steadily!",
+  "quoteText": "Always remember: every verse you memorize raises you a degree, and every effort you make in memorization is a step towards light and blessing. Keep going, we are with you every step of the way!",
+  "aboutUsTitle": "About Us",
+  "aboutUsContent": "Rasikh is a high-level Quranic program aimed at writing, memorizing, listening, reviewing, and linking each section of the curriculum to be memorized, and indicating the student's achievement level for all of that.\nIt aims to help male and female students around the world memorize the Holy Quran in an organized and effective manner, by providing an integrated system that combines paper plans and digital training.",
+  "completedParts": "You have completed so far {count} of the Quran Juz'",
+  "@completedParts": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "progressGood": "Advanced & Good Level",
+  "progressNeedsImprovement": "Needs Improvement",
+  "progressNeedsIntensiveReview": "Needs Intensive Review",
+  "nextTarget": "🌟 Next Target: {targetName}",
+  "@nextTarget": {
+    "placeholders": {
+      "targetName": {
+        "type": "String",
+        "example": "Juz 3"
+      }
+    }
+  },
+  "startMemorizingButton": "Start Memorizing",
+  "studentNamePlaceholder": "Student Name",
+  "nextPartOrSurah": "Next Part/Surah",
+  "welcomeToRasikh": "Welcome to Rasikh",
+  "failedToLoadStatistics": "Failed to load statistics: {error}",
+  "navHome": "Home",
+  "navMemorization": "Memorization",
+  "navPerformance": "Performance",
+  "navUnderstanding": "Understanding",
+  "archiveScreenTitle": "Archive",
+  "planNamePlaceholder": "3 Months Plan",
+  "archiveLoadError": "Failed to load archive: {error}",
+  "@archiveLoadError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "statusCompleted": "Completed",
+  "statusIncomplete": "Incomplete",
+  "detailMemorization": "Memorization",
+  "detailReview": "Review",
+  "detailRepetition": "Repetition",
+  "detailListening": "Listening",
+  "detailLinking": "Linking",
+  "detailWriting": "Writing Verses",
+  "writingCompleted": "Done",
+  "writingNotCompleted": "Not Done",
+  "memorizationInputHintLearning": "Start typing...",
+  "memorizationInputHintTesting": "Type the verses here to test your memorization...",
+  "hintButton": "Hint",
+  "planLoadError": "Error loading plan: {error}",
+  "startWriting": "Start Writing",
+  "planTitlePrefix": "Plan: ",
+  "fromSurah": "From Surah:",
+  "fromAyah": "From Ayah:",
+  "toAyah": "To Ayah:",
+  "reviewMode": "Review Mode",
+  "memorizationMode": "Memorization Mode",
+  "startTypingBelow": "Start typing in the field below...",
+  "repetitionLabel": "Repetition",
+  "repetitionCount": "{current} of {total}",
+  "@repetitionCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "listenNow": "Listen Now",
+  "writingAndRecitation": "Writing",
+  "saveProgress": "Save Progress",
+  "completeMemorization": "Complete Memorization",
+  "planHubTitle": "Memorization Tracker",
+  "tabMemorizationPlan": "Memorization",
+  "tabLinking": "Linking",
+  "tabArchive": "Archive",
+  "reviewBannerText": "Do not forget that review consolidates memorization, so make your daily routine balanced between progress and review.",
+  "previousReviewTitle": "Previous Review",
+  "nextReviewTitle": "Next Review",
+  "linkingTitle": "Linking {surahName}",
+  "@linkingTitle": {
+    "placeholders": {
+      "surahName": {
+        "type": "String",
+        "example": "Al-Baqarah"
+      }
+    }
+  },
+  "reviewButton": "Review",
+  "linkButton": "Link",
+  "fromSurahLabel": "From Surah:",
+  "fromAyahLabel": "From Ayah:",
+  "toAyahLabel": "To Ayah:",
+  "noActivePlan": "No active memorization plan",
+  "apiNoActivePlan": "No memorization plan scheduled for today.",
+  "errorNoPlanTitle": "No Plan Today",
+  "errorNoInternetTitle": "Connection Lost",
+  "errorGeneralTitle": "Something Went Wrong",
+  "refreshButton": "Refresh",
+  "stopListening": " Stop",
+  "errorLoadingSurahsList": "Error loading Surahs list",
+  "failedToLoadCertificates": "Failed to load certificates: {errorMessage}",
+  "notDefined": "Not Defined",
+  "noArchiveData": "No archive data yet",
+  "validationRequiredField": "Please enter {fieldName}",
+  "@validationRequiredField": {
+    "placeholders": {
+      "fieldName": {
+        "type": "String"
+      }
+    }
+  },
+  "validationEnterAge": "Please enter your age",
+  "validationAgeNumberOnly": "Age must be a valid integer number",
+  "validationAgeRange": "Please enter a realistic age between 15 and 120",
+  "failedToLoadCountries": "Failed to load countries",
+  "searchCountryHint": "Search for a country",
+  "noResultsFound": "No results found",
+  "openInWebSite": "Open in website",
+  "uploadingImage": "Uploading image...",
+  "imageUploadSuccess": "Profile image updated successfully",
+  "imageUploadFailed": "Failed to upload image: {error}",
+  "@imageUploadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "soryFailedToLoadReport": "Sorry, failed to load report",
+  "checkInternetThenRetry": "Check your internet connection and try again",
+  "surahNumber": "Surah number",
+  "noTafsirAvailableForNow": "No tafsir available for now.",
+  "selectedSurahName": "Al-Fatihah",
+  "showAllAyahs": "Show all ayahs",
+  "selectAyah": "Select ayah number",
+  "ayahNumber": "Ayah number",
+  "noAyahFound": "No ayah found for this number in the current report",
+  "getCertificate": "Get Certificate",
+  "failedToLoadCertificate": "Failed to load certificate",
+  "certificateNotIssued": "Certificate not issued yet, please try again later",
+  "numberOfSavedParts": "Number of saved parts",
+  "startNowThenYouWillSucceedInshaAllah": "Start now and you will succeed inshaAllah!",
+  "dateOfCompletion": "Date of Completion",
+  "errorLoadingData": "Error loading data",
+  "retry": "Retry",
+  "loading": "Loading...",
+  "completed": "No action needed",
+  "noPlanSelected": "No plan selected",
+  "reviewLinkScreenTitle": "Review & Linking",
+  "errorTitle": "Oops! Something Went Wrong",
+  "tryAgain": "Try Again",
+  "errorNoInternet": "It looks like you're offline. Please check your internet connection and try again.",
+  "errorTimeout": "The connection took too long to respond. Please check your connection or try again later.",
+  "errorUnknown": "An unexpected error occurred. Please restart the application.",
+  "errorGeneric": "A problem occurred while loading the data.",
+  "errorServerDown": "We encountered a server issue (Code: {statusCode}). Please try again shortly.",
+  "@errorServerDown": {
+    "description": "Server error message with status code placeholder.",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "errorOccurredTitle": "Error Occurred",
+  "errorOccurredMessage": "An error occurred in the app. Please check your internet connection and try again.",
+  "tajweedRulesTitle": "Tajweed Rules",
+  "validationPasswordWeak": "Password must contain at least one letter or symbol",
+  "userGuideTitle": "User Guide",
+  "welcomeTitle": "Welcome to Rasikh 🌿",
+  "welcomeContent": "This app is designed to be your smart companion in memorizing the Holy Quran. Our goal is not just memorization, but true mastery.\n\nWe believe in integration, so you can follow your daily portion through the app or the website.",
+  "visitWebsite": "Visit our website",
+  "firstStepTitle": "Step One: Choose Your Path",
+  "firstStepContent": "We offer flexible plans that match your level and motivation.\nIf you didn’t choose a plan during registration, you can explore and select the most suitable one now.",
+  "goToMemorization": "Go to memorization page",
+  "secondStepTitle": "Step Two: Daily Portion",
+  "methodologyIntro": "Rasikh’s secret lies in the triple methodology:",
+  "listen": "Listen",
+  "listenDesc": "Correct recitation",
+  "read": "Read",
+  "readDesc": "With focus and reflection",
+  "write": "Write",
+  "writeDesc": "To reinforce memorization",
+  "progressTitle": "Step Three: Track Progress",
+  "progressContent": "Your effort is never lost. Every completed day is recorded so you always know where you stand.",
+  "viewArchive": "View archive",
+  "reviewTitle": "Review & Reinforcement",
+  "reviewContent": "Memorization is capital, and review is the profit.\n• Review: A dedicated page to help you stay reminded.\n• Connection: To ensure coherence between verses and surahs.",
+  "masteryTitle": "Understanding & Mastery",
+  "masteryContent": "Make memorization meaningful through understanding:\n• Tajweed.\n• Tafsir.\n• The Holy Mushaf.",
+  "footerMessage": "May Allah grant you success in what He loves and is pleased with",
+  "tabReview": "Review",
+  "goToTajweed": "Go to Tajweed page",
+  "goToQuran": "Go to Quran page",
+  "goToTafsir": "Go to Tafsir page",
+  "goToMushaf": "Go to Mushaf page",
+  "memrizationPlans": "Memorization plan",
+  "mushafTab": "Mushaf",
+  "planCompletionTitle": "Plan completion",
+  "completionStatTitle": "Completion",
+  "linkedVersesStatTitle": "Linked verses",
+  "reviewedVersesStatTitle": "Reviewed verses",
+  "totalPartsStatTitle": "Total parts",
+  "performanceStatTitle": "Performance",
+  "completedDaysStatTitle": "Completed days",
+  "completedDaysLabel": "Completed days",
+  "daysUnit": "day",
+  "performanceStatUnit": "pts",
+  "motivationLabel": "Motivation",
+  "progressLabel": "Your progress",
+  "reminderLabel": "Reminder",
+  "notClassifiedLabel": "Unclassified",
+  "reviewScreenTitle": "Review",
+  "reviewEmptyTitle": "No reviews right now",
+  "reviewEmptySubtitle": "Complete memorization and your review plans will appear here automatically.",
+  "reviewDueCount": "{count} review day(s) due",
+  "@reviewDueCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewNoReviewTitle": "No review available",
+  "reviewNoReviewSubtitle": "This plan currently has no review tasks.",
+  "reviewVersesUnavailable": "Unable to show review verses (review range is incomplete).",
+  "reviewSheetTitlePrefix": "Review",
+  "listenButton": "Listen",
+  "reviewDoneButton": "Reviewed",
+  "linkScreenTitle": "Linking",
+  "linkDueCount": "{count} linking tasks due",
+  "@linkDueCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "linkEmptyTitle": "No linking tasks",
+  "linkEmptySubtitle": "No linking tasks were configured for this period.",
+  "linkNoLinkTitle": "No linking available",
+  "linkNoLinkSubtitle": "This day has no linking task as configured for this plan.",
+  "linkVersesUnavailable": "Unable to show linking verses (link range is incomplete).",
+  "linkSheetTitlePrefix": "Link",
+  "linkDoneButton": "Linked",
+  "validationGmailOnlyEmail": "Please enter a valid email address ending with @gmail.com",
+  "planInProgress": "In progress",
+  "planCompleted": "Completed",
+  "planLockedHint": "Locked - complete the previous plan",
+  "tapToStart": "Tap to start",
+  "planSwitchedTo": "Switched to: {planName}",
+  "@planSwitchedTo": {
+    "placeholders": {
+      "planName": {
+        "type": "String"
+      }
+    }
+  },
+  "planMustCompleteToUnlock": "Sorry, you must complete the current plan to unlock this one.",
+  "mainSection": "Main",
+  "preferences": "Preferences",
+  "supportSection": "Support",
+  "accountSection": "Account",
+  "somethingWentWrong": "Something went wrong. Please try again.",
+  "quranGreeting": "Let the Quran be your constant companion",
+  "contactTypeComplaint": "Complaint",
+  "contactTypeNote": "Note",
+  "contactTypeIdea": "Ideas",
+  "contactTypeInquiry": "Inquiry",
+  "dialogSuccessTitle": "Sent Successfully",
+  "dialogSuccessContent": "Thank you for contacting us. Your message has been received, and our team will reply to you soon via Email, WhatsApp, or Phone call if necessary.",
+  "dialogButtonOk": "OK",
+  "dailyAchievementTitle": "Daily Achievement",
+  "dailyAchievementSubtitle": "Continued memorization leads to completing the Book of Allah regularly.",
+  "dailyTipTitle": "Tip of the Day",
+  "dailyTipSubtitle": "The best among you are those who learn the Quran and teach it.",
+  "dailyPlanTitle": "Current Plan",
+  "dailyPlanSubtitle": "Follow your progress in the set plan to ensure firm memorization.",
+  "numberOfVerses": "Number of Verses",
+  "numberOfPages": "Number of Pages",
+  "dailyAverage": "Daily Average",
+  "performance": "Performance",
+  "performanceGood": "Good",
+  "currentPlanImportanceTitle": "Current Plan: ",
+  "mistakesWarning": "⚠️ You have {count} mistakes. Please review words in red and correct them to proceed.",
+  "@mistakesWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "correctionMismatchError": "Word does not match the required detail, please try again",
+  "correctionTitle": "Correction ({current}/{total})",
+  "@correctionTitle": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "actualWordLabel": "Actual Word",
+  "correctionDetailLabel": "Detail: {detail}",
+  "@correctionDetailLabel": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "correctionHintText": "Type the word here...",
+  "checkButton": "Check",
+  "writingSuccessSaving": "Writing successful ✅ Saving...",
+  "warningTitle": "Warning",
+  "exitWarningMessage": "You haven't finished writing yet. Do you want to exit and lose current progress?",
+  "continueButton": "Continue",
+  "exitAnywayButton": "Exit Anyway",
+  "completeWritingWarning": "⚠️ Please complete writing the verses first to fix memorization.",
+  "repetitionRemainingWarning": "⚠️ You have {count} more repetitions (required {total}).",
+  "@repetitionRemainingWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "listeningRemainingWarning": "⚠️ You have {count} more listenings (required {total}).",
+  "@listeningRemainingWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "recordingPlanCompletion": "Recording plan completion...",
+  "planCompletionSuccess": "Congratulations! Today's portion completed successfully 🎉",
+  "savingError": "Error while saving: {error}",
+  "@savingError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "listeningCompletedSuccess": "Full listening recorded ✅",
+  "planCompletedCongrats": "MashaAllah! You have completed the plan successfully",
+  "duaMessage": "May Allah make the Quran a light for you in this world and the hereafter ✨",
+  "chooseNextStep": "Choose your next step:",
+  "allPlansCompleted": "Well done! You have completed all available plans.",
+  "failedToLoadPlans": "Failed to load plans",
+  "failedToLoadPlansWithError": "Failed to load plans: {error}",
+  "@failedToLoadPlansWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToSwitchPlan": "Failed to change plan: {error}",
+  "@failedToSwitchPlan": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToSwitchPlanTryLater": "Failed to switch plan. Please try again later.",
+  "continueAsGuest": "Continue as Guest",
+  "guestModeTitle": "Login Required",
+  "guestModeMessage": "Please login to access this feature",
+  "cancel": "Cancel",
+  "loginScreenSubtitle": "Login to continue and benefit from all the features of the app",
+  "choosePlanOptional": "Choose a plan (Optional)",
+  "defaultPlanWillBeUsed": "Default plan will be used",
+  "doYouHaveAccount": "Do you have an account?",
+  "emptyPlanMessage": "Sorry, this plan is currently empty",
+  "emptyPlanSubmessage": "No daily tasks have been added to this plan yet. You can choose another plan to start.",
+  "availablePlansLabel": "Available Plans:",
+  "noOtherPlansAvailable": "No other plans available currently.",
+  "failedToLoadData": "Error loading data",
+  "registerHelpNote": "Quick note before trying again",
+  "registerHelpDescription": "The error might be because the phone number or email is already in use.\nVerify your data, or log in if you already have an account.",
+  "userGuide": "User Guide",
+  "loginRequiredTitle": "Login Required",
+  "loginRequiredMessage": "Please login to access this feature",
+  "reportsGuestMessage": "Sorry, you cannot view memorization reports in guest mode. Please login to continue.",
+  "deleteAccountButton": "Delete Account",
+  "deleteAccountTitle": "Delete Account",
+  "deleteAccountWarning": "Are you sure you want to delete your account?",
+  "deleteAccountConfirmButton": "Delete",
+  "deleteAccountCancel": "Cancel",
+  "deleteAccountSuccess": "Account deleted successfully",
+  "deleteAccountFailed": "Failed to delete account: {error}",
+  "@deleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
+}
